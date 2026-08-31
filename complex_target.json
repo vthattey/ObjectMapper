@@ -1,0 +1,51 @@
+{
+  "invoiceNumber": "ORD-2026-004821",
+  "issuedOn": "2026-08-14",
+  "customer": {
+    "fullName": "Ava Nakamura",
+    "email": "ava.nakamura@example.com",
+    "phone": "+14155550142",
+    "tier": "Gold"
+  },
+  "shipTo": {
+    "street": "482 Sunset Blvd",
+    "city": "San Francisco",
+    "country": "United States",
+    "zip": "94110"
+  },
+  "summary": {
+    "subtotal": 218.96,
+    "tax": 19.27,
+    "shipping": 5.99,
+    "total": 244.22,
+    "currency": "USD"
+  },
+  "paymentSummary": {
+    "method": "credit_card",
+    "maskedCard": "VISA ••••4242"
+  },
+  "status": "Paid",
+  "lineItems": [
+    {
+      "sku": "SKU-1001",
+      "description": "Wireless Mechanical Keyboard",
+      "quantity": 1,
+      "unitPrice": 129.99,
+      "lineTotal": 129.99
+    },
+    {
+      "sku": "SKU-2044",
+      "description": "USB-C Hub, 7-in-1",
+      "quantity": 2,
+      "unitPrice": 34.99,
+      "lineTotal": 69.98
+    },
+    {
+      "sku": "SKU-3157",
+      "description": "Ergonomic Mouse Pad",
+      "quantity": 1,
+      "unitPrice": 18.99,
+      "lineTotal": 18.99
+    }
+  ]
+}

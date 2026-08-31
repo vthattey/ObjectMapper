@@ -1,0 +1,50 @@
+{
+  "order_id": "ORD-2026-004821",
+  "created_at": "2026-08-14T09:32:00Z",
+  "customer": {
+    "first_name": "Ava",
+    "last_name": "Nakamura",
+    "email_lc": "ava.nakamura@example.com",
+    "phone_e164": "+14155550142",
+    "loyalty_tier": "gold"
+  },
+  "shipping_address": {
+    "line_1": "482 Sunset Blvd",
+    "city": "San Francisco",
+    "country_code": "US",
+    "postal_code": "94110"
+  },
+  "items": [
+    {
+      "sku": "SKU-1001",
+      "name": "Wireless Mechanical Keyboard",
+      "qty": 1,
+      "unit_price_cents": 12999
+    },
+    {
+      "sku": "SKU-2044",
+      "name": "USB-C Hub, 7-in-1",
+      "qty": 2,
+      "unit_price_cents": 3499
+    },
+    {
+      "sku": "SKU-3157",
+      "name": "Ergonomic Mouse Pad",
+      "qty": 1,
+      "unit_price_cents": 1899
+    }
+  ],
+  "totals": {
+    "subtotal_cents": 21896,
+    "tax_cents": 1927,
+    "shipping_cents": 599,
+    "grand_total_cents": 24422,
+    "currency": "USD"
+  },
+  "payment": {
+    "method": "credit_card",
+    "card_brand": "visa",
+    "card_last4": "4242"
+  },
+  "status_code": "PAID"
+}
